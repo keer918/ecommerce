@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+    :root {
+  --main:green;
+}
+
+    * {
+  font-family: "Besley", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s all linear;
+}
+section {
+  padding: 2rem 9%;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+.header {
+  background: green;
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+.header .icons a {
+  color: yellow;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.header .icons a:hover{
+  background: var(--main);
+  color: #fff;
+}
+.header .logo  {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: var(--main);
+  border-radius: 40%;
+}
+body {
+  background:aliceblue;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:green;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:green;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:green;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: green;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.about{
+ 
+  padding: 1rem;
+}
+.heading {
+  color: #2c2c54;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+.heading span {
+  text-transform: uppercase;
+  color: green
+}
+.head{
+  color:green;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+.head span {
+  text-transform: uppercase;
+  color: yellowgreen;
+}
+.content {
+  flex: 1 1 40rem;
+}
+ .content span {
+  color: #2c2c54;
+  font-size: 3.5rem;
+}
+
+.para{
+  font-size: 2rem;
+  color:#000;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+</style>
+</head>
+
+<body>
+  
+        <section>
+          <h1 class="heading"><span>About</span> Us</h1>
+          <div class="about">
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="https://thumbs.dreamstime.com/z/green-herbal-logo-template-white-background-155541634.jpg" width="900rem" height="370rem">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="https://static.vecteezy.com/system/resources/previews/020/230/567/original/herbal-and-natural-medicine-logo-design-concept-medicinal-plant-logo-design-template-vector.jpg" width="900rem" height="370rem">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="https://static.vecteezy.com/system/resources/previews/000/660/666/original/herbal-life-logo-vector.jpg" width="1000rem" height="370rem">
+            </div>
+          
+          <br>
+          
+          <div class="content">  
+          
+            <span>Herbal Hub:</span>
+            
+        <div class="para"> 
+          <p> 
+            "Herbal Hub" a groundbreaking online platform dedicated to tackling
+        food waste by connecting surplus food resources with orphanages and animal
+        husbandries in need. Our mission is to bridge the gap between excess food and
+        those who can benefit from it the most, simultaneously reducing wastage and
+        contributing to the well-being of vulnerable populations.
+        The platform utilizes geolocation services to identify surplus food donors and recipients in close proximity, ensuring that food donations can be delivered efficiently and without unnecessary transportation costs.
+        Donors can easily update their surplus food inventory on the platform, including details such as food type, quantity, expiration dates, and pickup availability. This helps streamline the donation process.
+          </p> 
+          <p>Explore our carefully curated selection of high-quality herbal products, including dried herbs, herbal teas, tinctures, essential oils, and more. We collaborate with trusted suppliers to ensure you have access to the best herbal products available.</p>
+        </div> 
+        
+        </section>
+        <h1 class="head"><span>Thank you for being part of</span> Herbal Hub</h1>
+    
+    
+    <script>
+      let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
+
+</body>
+
+</html>
